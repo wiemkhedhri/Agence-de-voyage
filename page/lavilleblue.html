@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../style/style.css" >
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../style/bootstrap.min.css">  
+      
+    </head>
+    <body>
+        <nav class="navbar ">
+            <div class="container-fluid">
+             
+                <a class="navbar-brand" href="./home.html"><strong style="font-size: 40px;">Discover with us</strong> </a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="./home.html">Home</a></li>
+                  <li><a href="./our acitivites.html">Flights</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="./login.html"><span class="glyphicon glyphicon-log-in"></span> sign in </a></li>
+                  <li><a href="./create account.html">  <span class="glyphicon glyphicon-log-in"></span> create account</a>          </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="../style/img.501.jpg" style="width:100%">
+              
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="../style/img.502.jpg" style="width:100%">
+              
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="../style/img.503.jpg" style="width:100%">
+             
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+          </div>
+          <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none"; 
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1} 
+              slides[slideIndex-1].style.display = "block"; 
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+          </script>
+       
+
+          
+
+
+
+          </div>
+          
+
+
+
+
+        <br>
+        <br>
+
+               <div class="jumbotron jumbotron-fluid">
+
+               <h2 style="text-align: top;color: darkslateblue;">  LA VILLA BLEUE – Sidi Bou Said </h2>
+<br>                  <p>  “Sidi Bou Saïd est un village ancestral, certainement le plus beau de tous ceux de la Tunisie
+                     Sa position privilégiée offre une vue panoramique sur le turquoise de la mer au pied 
+                     de ses falaises rouges et permet d’admirer, à l’horizon, le célèbre Boukornine et les iles 
+                     de Zembra et Zembretta. Qui n’a pas souhaité vivre au quotidien dans une de ces maisons
+                      d’architecture arabo-andalouse dont les murs blancs croulent sous les bougainvilliers
+                       qui les incendient de leurs couleurs? Qui n’a pas rêvé de flâner encore et encore dans
+                        le dédale de ses ruelles pavées qui, en soirée, embaument le jasmin et le mesk-ellil,
+                         tous deux responsables de tant d’exaltations des sens ? 
+                        </p>
+              <img src="../style/img.501.jpg" style="margin-left: 124px;" >
+           
+              
+                           </div>
+              
+      
+<footer class="container-fluid text-center" >
+    
+     <p> <strong>  68 rue Kennedy <br>
+        Sidi Bou Said 2026 - Tunisie <br>
+        Tel :+216 71 742 000 <br>
+        Tel :+216 71 743 900<br>
+        Fax : +216 71 745 000 <br>
+        sales@lavillableuesidibousaid.com<br></strong>  </p></p>
+       
+        
+  </footer>
+          
+
+
+    </body>
+</html>

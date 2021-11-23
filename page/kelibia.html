@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../style/style.css" >
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../style/bootstrap.min.css">        
+    </head>
+    <body>
+        <nav class="navbar ">
+            <div class="container-fluid">
+             
+                <a class="navbar-brand" href="./home.html"><strong style="font-size: 40px;">Discover with us</strong> </a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="./home.html">Home</a></li>
+                  <li><a href="./our acitivites.html">Flights</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="./login.html"><span class="glyphicon glyphicon-log-in"></span> sign in </a></li>
+                  <li><a href="./create account.html">  <span class="glyphicon glyphicon-log-in"></span> create account</a>          </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="w3-content w3-section" style="max-width:500px">
+            <img class="mySlides" src="../style/img.130.jpg" style="width:1300px;height:500px;">
+            <img class="mySlides" src="../style/img.131.jpg" style="width:1300px;height:500px;">
+            <img class="mySlides" src="../style/img.132.jpg" style="width:1300px;height:500px;">
+            <img class="mySlides" src="../style/img.133.jpg" style="width:1300px;height:500px;">
+            <img class="mySlides" src="../style/img.134.jpg" style="width:1300px;height:500px;">
+          </div>
+          <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            </script>
+             <br>
+             <br>
+             <div class="container-fluid bg-3 text-center">    
+                <h3 style="color: #2B0071;"><strong>
+                   
+             Kelibia The prettiest and most important
+               city on the east coast of Tunisia </strong></h3><br>
+                    <p style="font-size: 20px;color:cornflowerblue">here is the best hotels in Kelibia </p>
+         <br>
+         <br>
+         <div class="row text-center">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img src="../style/img.141.jpg" alt="hotel" width="400" height="200px">
+                <h3><strong>Cap Bon kelibia beach</strong></h3>
+                <p></p>
+                <a href ="./reservation.html">
+
+                <button class="btn"> Reserve now</a> </button>
+              </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="thumbnail">
+                  <img src="../style/img.140.jpg" alt="hotel" width="400" height="400pw">
+                  <h3><strong>Africa Jade Thalasso</strong></h3>
+                  <p></p>
+                  <a href ="./reservation.html">
+  
+                  <button class="btn"> Reserve now</a> </button>
+                </div>
+
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img src="../style/img.139.jpg" alt="hotel" width="400" height="400pw">
+                  <h3><strong>Dar Gitta El Haouaria</strong></h3>
+                  <p></p>
+                  <a href ="./reservation.html">
+  
+                  <button class="btn"> Reserve now</a> </button>
+                </div>
+              </div>
+
+              <div >
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Zf7ruBFfdujPJkXuubpi3pe8LfsQbIsa" 
+                 width="1300px" height="300"></iframe>
+                
+              </div>
+
+
+              <footer class="container-fluid text-center">
+                <p style ="font-size: 20px;"><strong>form more information contact us</strong> </p> <br>
+                <p style="font-size:15px;">wiem.khedri50@gmail.com </p >
+                <p style="font-size:15 px;">  +21623857642 </p>
+              </footer>
+    
+              
+
+
+         
+
+    </body>
+
+</html>
